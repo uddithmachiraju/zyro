@@ -1,0 +1,110 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.log
+*.sqlite3
+*.env
+.env.*
+*.db
+
+# Virtual environments
+.env/
+.venv/
+venv/
+ENV/
+env/
+
+# VS Code settings
+.vscode/
+.history/
+.code-workspace
+
+# Devcontainer configs
+.devcontainer/devcontainer.env
+.devcontainer/*.local.json
+.devcontainer/*.override.json
+.devcontainer/docker-compose.override.yaml
+
+# Docker related
+*.tar
+*.bak
+*.swp
+docker-compose.override.yml
+docker-compose*.log
+
+# Docker volumes & containers (mounted paths or generated content)
+.vscode-volume/
+.vscode/
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*$py.class
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Bandit
+bandit.json
+
+# Ruff
+.ruff_cache/
+
+# Logs and reports
+*.log
+logs/
+report.*
+
+# Ignore macOS & Windows junk
+.DS_Store
+Thumbs.db
+
+# Ignore node_modules if used (for frontend or tooling)
+node_modules/
+
+# Ignore test artifacts
+test-output/
+tests/__pycache__/
+
+# Ignore compiled/temporary files
+*.tmp
+*.bak
+*.old
+
+# Ignore secrets or API key backups
+secrets.json
+*.key
+*.pem
+*.crt
+
+# Ignore data files
+data/
+datasets/
+*.csv
+*.tsv
+*.json
+
+# Ignore notebooks if not needed
+*.ipynb_checkpoints
+
+# Ignore auto-generated files from Docker Desktop/DevContainer
+**/.docker/

@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  zyro:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    container_name: zyro
+    volumes:
+      - ..:/workspace:cached
+      - vscode:/vscode
+    working_dir: /workspace
+    command: sleep infinity
+volumes:
+  vscode:
+    external: true
